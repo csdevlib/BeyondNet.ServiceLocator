@@ -26,7 +26,7 @@ It acts as a registry or lookup service that decouples clients from the concrete
 However, the Service Locator Pattern also has some drawbacks, such as:
 
 - Dependency on Global State: Service locators introduce a form of global state, which can complicate testing and make code harder to understand.
-- Runtime Errors: Since service dependencies are resolved at runtime, errors related to missing or misconfigured services may only manifest during runtime.
+																										- Runtime Errors: Since service dependencies are resolved at runtime, errors related to missing or misconfigured services may only manifest during runtime.
 - Potential Overuse: Overreliance on the service locator can lead to hidden dependencies and decreased clarity in code.
 
 Overall, the Service Locator Pattern is a useful tool for managing dependencies and promoting flexibility in software systems, 
