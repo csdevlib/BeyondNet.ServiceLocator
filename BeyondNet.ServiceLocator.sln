@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE9194CB-1E31-4B2E-98D3-E147554C6FA5}"
+	ProjectSection(SolutionItems) = preProject
+		BeyondNet.ServiceLocator.Installer\LICENSE = BeyondNet.ServiceLocator.Installer\LICENSE
+		BeyondNet.ServiceLocator.Installer\README.md = BeyondNet.ServiceLocator.Installer\README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeyondNet.ServiceLocator", "BeyondNet.ServiceLocator\BeyondNet.ServiceLocator.csproj", "{7A416279-2523-416E-B26B-6473D293F84B}"
 EndProject
